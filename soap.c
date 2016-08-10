@@ -12,7 +12,7 @@ typedef struct {
 
 int
 main(int argc, char *argv[]){
-	int g, h, i;
+	size_t g, h, i;
 	char cmd[BUFSIZ], sharg[BUFSIZ];
 	regex_t regex;
 
