@@ -32,7 +32,6 @@ clean:
 	@rm -f soap ${OBJ}
 
 install: all
-	@test -f /usr/bin/xdg-open_ || (echo backing up to /usr/bin/xdg-open_; mv /usr/bin/xdg-open /usr/bin/xdg-open_)
 	@echo installing new xdg-open
 	@cp -f soap /usr/bin/xdg-open
 	@chmod 755 /usr/bin/xdg-open
